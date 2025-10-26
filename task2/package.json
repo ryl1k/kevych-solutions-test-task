@@ -1,0 +1,16 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "Groq system prompt test",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "groq-sdk": "^0.5.0"
+  }
+}

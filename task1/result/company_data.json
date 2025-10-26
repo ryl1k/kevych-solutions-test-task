@@ -1,0 +1,69 @@
+[
+  {
+    "companyName": "Acme Innovations",
+    "founded": 2018,
+    "companyType": "tech firm",
+    "focus": [
+      "cloud-native application development",
+      "IoT solutions"
+    ],
+    "industry": "logistics",
+    "location": "Austin, TX",
+    "contacts": [
+      {
+        "fullName": "Sarah Chen",
+        "position": "CEO",
+        "email": null
+      },
+      {
+        "fullName": "John Doe",
+        "position": "Head of Business Development",
+        "email": "john.doe@acmeinnovations.com"
+      }
+    ],
+    "email": "john.doe@acmeinnovations.com",
+    "insights": null,
+    "summary": "empower businesses with cutting-edge digital tools"
+  },
+  {
+    "companyName": "Global Ventures Inc.",
+    "founded": 2005,
+    "companyType": "FinTech",
+    "focus": [
+      "secure payment gateways",
+      "algorithmic trading platforms"
+    ],
+    "industry": "financial technology",
+    "location": "New York",
+    "contacts": [
+      {
+        "fullName": "Mark Johnson",
+        "position": "CTO",
+        "email": null
+      }
+    ],
+    "email": "info@globalventures.com",
+    "insights": null,
+    "summary": "We provide bespoke software solutions."
+  },
+  {
+    "companyName": "FutureTech Solutions",
+    "founded": null,
+    "companyType": "startup",
+    "focus": [
+      "AI-powered data analytics"
+    ],
+    "industry": "healthcare",
+    "location": "Berlin, Germany",
+    "contacts": [
+      {
+        "fullName": "Dr. Elena Petrova",
+        "position": "Chief Strategy Officer",
+        "email": null
+      }
+    ],
+    "email": null,
+    "insights": null,
+    "summary": "FutureTech Solutions secured Series B funding to expand their AI-powered data analytics platform for the healthcare industry."
+  }
+]
