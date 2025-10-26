@@ -44,5 +44,3 @@ How to run:
 Results will appear in:
 - In file results.txt
 - Console.
-
-Ruslan Shevchuk
