@@ -21,20 +21,30 @@ export async function model(schema, text) {
         messages:[
             {
                 role: "system",
-                content: `You are a structured data extractor. \n` +
-                 `Return a VALID JSON ONLY, if you dont find info, then put null, match this schema:\n${JSON.stringify(schema)} \n\n` +
-                 `For each field:\n
-                - companyName: exact name of the company.\n
-                - founded: year of founding (number).\n
-                - companyType: choose from ["startup", "enterprise", "agency", "non-profit", "other"].\n
-                - focus: list of key technologies, products, or services.\n
-                - industry: short general industry name.\n
-                - location: city and country.\n
-                - contacts: extract known people, their roles, and emails if available.\n
-                - email: main company email.\n
-                - insights: write 1–3 short analytical remarks about growth, funding, or relevance. ALWAYS WRITE SOME INSIGHTS.\n
-                - summary: short objective paragraph (3–4 sentences) describing the company in third person.\n\n` +
-                `Be consistent across all examples. Return **valid JSON only**.`
+                content: `
+                    You are a structured data extractor.
+                    Your task is to analyze company information text and return a VALID JSON ONLY.
+                    
+                    If some fields are missing, set them to null.
+                    The output must follow exactly this schema:
+                    ${JSON.stringify(schema)}
+                    
+                    For each field:
+                    
+                    - companyName: exact name of the company.
+                    - founded: year of founding (number).
+                    - companyType: choose from ["startup", "enterprise", "agency", "non-profit", "other"].
+                    - focus: list of key technologies, products, or services.
+                    - industry: short general industry name.
+                    - location: city and country.
+                    - contacts: extract known people, their roles, and emails if available.
+                    - email: main company email.
+                    - insights: write 1–3 short analytical remarks about growth, funding, or relevance. ALWAYS WRITE SOME INSIGHTS.
+                    - summary: short objective paragraph (3–4 sentences) describing the company in third person.
+                    
+                    Be consistent across all examples.
+                    Return valid JSON only, nothing else.
+                `
             },
             {
                 role: "user",

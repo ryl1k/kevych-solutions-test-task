@@ -24,7 +24,7 @@ async function main() {
             },
             {
                 role: "user",
-                content: `Tell me a bit about Healthcare.`
+                content: `Tell me a something that i can eat.`
             }
         ],
     });
