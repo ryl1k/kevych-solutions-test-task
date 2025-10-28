@@ -2,12 +2,12 @@
   {
     "companyName": "Acme Innovations",
     "founded": 2018,
-    "companyType": "tech firm",
+    "companyType": "enterprise",
     "focus": [
       "cloud-native application development",
       "IoT solutions"
     ],
-    "industry": "logistics",
+    "industry": "tech",
     "location": "Austin, TX",
     "contacts": [
       {
@@ -22,18 +22,21 @@
       }
     ],
     "email": "john.doe@acmeinnovations.com",
-    "insights": null,
-    "summary": "empower businesses with cutting-edge digital tools"
+    "insights": [
+      "Empowering businesses with cutting-edge digital tools",
+      "Leading the logistics sector with IoT solutions"
+    ],
+    "summary": "Acme Innovations is a leading tech firm based in Austin, TX, specializing in cloud-native application development and IoT solutions for the logistics sector. Founded in 2018, the company aims to empower businesses with cutting-edge digital tools."
   },
   {
     "companyName": "Global Ventures Inc.",
     "founded": 2005,
-    "companyType": "FinTech",
+    "companyType": "enterprise",
     "focus": [
       "secure payment gateways",
       "algorithmic trading platforms"
     ],
-    "industry": "financial technology",
+    "industry": "financial technology (FinTech)",
     "location": "New York",
     "contacts": [
       {
@@ -43,17 +46,21 @@
       }
     ],
     "email": "info@globalventures.com",
-    "insights": null,
-    "summary": "We provide bespoke software solutions."
+    "insights": [
+      "Growing presence in the FinTech industry",
+      "Key player in secure payment gateways and algorithmic trading platforms"
+    ],
+    "summary": "Global Ventures Inc. is a leading provider of bespoke software solutions, specializing in secure payment gateways and algorithmic trading platforms. With a strong presence in the financial technology industry, the company continues to grow and expand its services. Founded in 2005 by Mark Johnson, Global Ventures Inc. has established itself as a key player in the market."
   },
   {
     "companyName": "FutureTech Solutions",
     "founded": null,
     "companyType": "startup",
     "focus": [
-      "AI-powered data analytics"
+      "AI-powered data analytics",
+      "healthcare industry"
     ],
-    "industry": "healthcare",
+    "industry": "Healthcare",
     "location": "Berlin, Germany",
     "contacts": [
       {
@@ -63,7 +70,11 @@
       }
     ],
     "email": null,
-    "insights": null,
-    "summary": "FutureTech Solutions secured Series B funding to expand their AI-powered data analytics platform for the healthcare industry."
+    "insights": [
+      "Secured Series B funding to expand their platform",
+      "Focused on the healthcare industry with AI-powered data analytics",
+      "Recently active in the market"
+    ],
+    "summary": "FutureTech Solutions is a dynamic startup in Berlin, Germany, that has secured Series B funding to expand their AI-powered data analytics platform for the healthcare industry. With a focus on innovative technology, they aim to make a significant impact in the industry. As a rapidly growing company, they are expected to continue making waves in the market."
   }
 ]

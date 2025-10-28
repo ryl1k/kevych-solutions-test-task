@@ -60,7 +60,10 @@ export const schema = {
     properties: {
         companyName: { type: "string" },
         founded: { type: "number" },
-        companyType: { type: "string" },
+        companyType: {
+            "type": "string",
+            "enum": ["startup", "enterprise", "agency", "non-profit", "other"]
+        },
         focus: {
             type: "array",
             items: { type: "string" }
